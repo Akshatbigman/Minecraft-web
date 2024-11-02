@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:700,900');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+body {
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  overflow-y: auto;
+}
+a{
+  text-decoration: none;
+}
+
+/* Sections */
+.section{
+  height: 100vh;
+  min-height: 500px;
+  position: relative;
+}
+
+/* Containers */
+.content-container{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  clip: rect(auto, auto, auto, auto);
+  pointer-events: none;
+}
+.content-inner{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  padding: 0;
+  z-index: 99;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  pointer-events: all;
+}
+.content-center{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/* Aesthetics */
+.top-section{
+  background-image:url("mine.jpg");
+  background-size: cover;
+}
+.second-section{
+  background-image:url("aesthetic.webp");
+  background-size: cover;
+}
+.third-section{
+  background-image:url("R.jpeg");
+  background-size: cover;
+}
+.section h1{
+  font-size: 100px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+.section p,
+.section a{
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.top-section h1{
+  color: #ffffff;
+  text-shadow: 0 20px 40px rgba(0,0,0,.5);
+}
+.top-section p,
+.top-section a{
+  color: #d600cb;
+}
+
+h1{
+  color: #db3535;
+  text-shadow: 0 20px 40px rgba(0,0,0,.5);
+}
+p,
+a{
+  color: #ff0000;
+}
+
+.third-section h1{
+  color: #c79e25;
+  text-shadow: 0 20px 40px rgba(0,0,0,.5);
+}
+
+.third-section p,
+.third-section a{
+  color: #ffc60b;
+}
