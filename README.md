@@ -17,4 +17,4 @@ A simple and visually appealing website that displays reviews of Minecraft. The 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Akshatbigman/minecraft-review-website.git
+   git clone https://github.com/Akshatbigman/Minecraft-web.git
